@@ -143,9 +143,9 @@ colNames = ['счетчик']
 df1 = pd.DataFrame.from_dict(dictionary, orient='index')
 df1.columns = colNames
 df1.reset_index(inplace=True)
-df1.to_csv('Dict1New2014.csv')
+df1.to_csv('Dict1New2004-2020.csv')
 print(df1)
 cyr_df1 = pd.DataFrame.from_dict(cyr_dictionary, orient='index')
 cyr_df1.reset_index(inplace=True)
-cyr_df1.to_csv('extra_Dict1New2014.csv')
+cyr_df1.to_csv('extra_Dict1New2004-2020.csv')
 print(cyr_df1)
